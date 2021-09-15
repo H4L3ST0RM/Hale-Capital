@@ -1,4 +1,4 @@
-# Hale-Capital
+ff# Hale-Capital
 Building a trade bot through the Alpaca API. Want it to be abstract enough to implement
 various strategies relatively easily. Will begin by implementing traditional strategies,
 and as this process matures, would like to begin implementing reinforcement learning
@@ -19,19 +19,3 @@ Buy, Sell, Hold
 # States
 
 # Parameters
-- Current stock price
-- Moving Average
-- VWAP
-- TWAP
-- Twitter Sentiment
-- Reddit Sentiment
-- Momentum
-- Trend
-- Sector Momentum
-- Sector Trend
-- P/E
-- Sector P/E
-- EPS
-- Acid Test
-- Working Capital Ratio
-- Debt-Equity Ratio
