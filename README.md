@@ -7,7 +7,7 @@ models in lieu of strategies.
 A back-end *may* need to be stood up at some point in the future. Will need to evaluate
 what Alpaca stores versus what we need.
 
-The bot will be deployed to GCP. 
+The bot will be deployed to GCP Google Kubernetes Engine (GKE).
 
 # Objective Function
 
