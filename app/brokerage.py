@@ -29,3 +29,6 @@ class Brokerage:
 
     def get_watchlist(self):
         return self.api.get_watchlist()
+
+    def get_position_info(self, symbol):
+        return

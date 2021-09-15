@@ -31,3 +31,8 @@ class Trader:
     def update_watchlist(self):
         self.watchlist = self.get_watchlist()
         return
+
+    def update(self):
+        self.update_account_info()
+        self.update_watchlist()
+        return
