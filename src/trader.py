@@ -1,4 +1,3 @@
-import strategies
 import brokerage
 
 
@@ -29,6 +28,6 @@ class Trader:
         self.account_info = self.brokerage.update_account_info()
         return
 
-    def get_watchlist(self):
+    def update_watchlist(self):
         self.watchlist = self.get_watchlist()
         return
