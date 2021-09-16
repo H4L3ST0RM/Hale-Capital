@@ -4,10 +4,12 @@ import strategies
 """
 This the main function for the program.
 """
-def main(strategytype,trade_freq):
-    PUBLIC_KEY = "PKT1MRL4AFJUQNNH43Y6"
-    SECRET_KEY = "BKC0blpd2KEi4WllW2pqmO87OXBP3Pl1mikZo2Zm"
+import os
 
+def main(strategytype,trade_freq):
+
+    PUBLIC_KEY = os.environ.get("ALPACA_PUBLIC_KEY")
+    SECRET_KEY = os.environ.get("ALPACA_SECRET_KEY")
     trader = Trader(secret_key=SECRET_KEY,public_key=PUBLIC_KEY)
     market_data = Market(trader.watchlist)
 
