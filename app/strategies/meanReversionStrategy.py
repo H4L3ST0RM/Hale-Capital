@@ -1,9 +1,8 @@
-
-
 import time
 from baseStrategy import BaseStrategy
-
-
+"""
+Implemntation of mean-reversion strategy.
+"""
 # WORK IN PROGRESS
 class MeanReversionStrategy(BaseStrategy):
     def __init__(self, trader, market, freq="hourly", budget=None):

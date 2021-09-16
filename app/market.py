@@ -1,6 +1,9 @@
-
 from position import Position_Data
+"""
+The market object is designed to hold all data necessary for the Trader to make a decision on.
 
+From an RL perspective, this object contains the current state of the environment.
+"""
 class Market:
     def __init__(self, positions=None):
         self.positions_data = {}

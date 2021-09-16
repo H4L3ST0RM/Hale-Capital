@@ -1,5 +1,6 @@
-
-
+"""
+The Position_Data object is just a data class, used for storing state data.
+"""
 
 class Position_Data:
     def __init__(self):

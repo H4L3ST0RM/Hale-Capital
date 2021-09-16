@@ -1,8 +1,9 @@
-
 from trader import Trader
 from market import Market
 import strategies
-
+"""
+This the main function for the program.
+"""
 def main(strategytype,trade_freq):
     PUBLIC_KEY = "PKT1MRL4AFJUQNNH43Y6"
     SECRET_KEY = "BKC0blpd2KEi4WllW2pqmO87OXBP3Pl1mikZo2Zm"

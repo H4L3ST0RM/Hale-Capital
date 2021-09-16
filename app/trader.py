@@ -1,6 +1,9 @@
 import brokerage
+"""
+The trader object stores all account information.
 
-
+In an RL context, the Trader would be the agent.
+"""
 class Trader:
     def __init__(self, secret_key,public_key,positions=None, account_value=None):
 

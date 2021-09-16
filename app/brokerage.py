@@ -1,5 +1,7 @@
 import alpaca_trade_api as tradeapi
-
+"""
+The Brokerage object acts as an interface between Trader and Alpaca.
+"""
 class Brokerage:
 
     def __init__(self):
