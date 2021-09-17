@@ -2,6 +2,7 @@
 The Position_Data object is just a data class, used for storing state data.
 """
 
+
 class Position_Data:
     def __init__(self):
         reddit_sentiment = None
@@ -19,4 +20,3 @@ class Position_Data:
 
     def update_position_data(self):
         pass
-

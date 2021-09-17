@@ -14,9 +14,7 @@ def main(strategytype,trade_freq):
     market_data = Market(trader.watchlist)
 
     if strategytype == "mean_reversion":
-        strategy = strategies.meanReversionStrategy.MeanReversionStrategy(trader,market_data,freq=trade_freq)
-
-    strategy.execute(trader,market_data)
+        strategies.meanReversionStrategy.daily_mean_reversion_strategy(trader, market_data)
 
     return
 
