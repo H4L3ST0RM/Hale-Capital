@@ -1,3 +1,5 @@
+# This repo is being redesigned into a project, that will contain a collection of small applications...
+
 # Hale-Capital
 Building a trade bot through the Alpaca API. Want it to be abstract enough to implement
 various strategies relatively easily. Will begin by implementing traditional strategies,
